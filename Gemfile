@@ -1,6 +1,6 @@
 source :gemcutter
 gem 'sinatra', '>=1.1.2'
-gem 'sinatra-sequel'
+gem 'sinatra-activerecord'
 
 group :development do
   gem 'sqlite3'
@@ -13,7 +13,7 @@ group :test do
 end
 
 group :production do
-  gem 'postgres'
+#   gem 'postgres'
 end
 
 gem 'haml'
