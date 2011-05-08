@@ -8,7 +8,7 @@
 require 'rubygems'
 require 'sinatra'
 
-require 'config/init.rb'
+load 'config/init.rb'
 
 # Quick test
 get '/' do
